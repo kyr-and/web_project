@@ -1,0 +1,33 @@
+<h2 class="page-selection">Please select a HAR file.</h2>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-10">
+            <div class="input-group mb-2">
+                <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="fileInput">
+                    <label class="custom-file-label" id="fileLabel">Choose file</label>
+                </div>
+             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-4">
+            <button class="btn btn-style-1 btn-secondary btn-block" type="button" id="upload-btn">Upload to Database</button>
+        </div>
+        <div class="col col-lg-4">
+            <button class="btn btn-style-1 btn-secondary btn-block" type="button" id="download-btn">Download Processed HAR</button>
+        </div>
+    </div>
+
+    <div id="loading-div" class="row justify-content-md-center invisible mt-5">
+        <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <div id="result-container" class="row flex-column mt-5"></div>
+</div>

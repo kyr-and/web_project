@@ -1,0 +1,22 @@
+<%- include('./partials/header') %>
+<%- include('./partials/dashboard_nav_user') %>
+
+<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+    <div class="d-flex justify-content-end flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+        <h4 class="h4">logged in as: <span style="color:#007bff"><%- name %></span></h4>
+    </div>
+    <div id="pageContainer"></div>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+crossorigin=""></script>
+<script src="https://cdn.jsdelivr.net/npm/heatmapjs@2.0.2/heatmap.js"> </script>
+<script src=https://cdn.jsdelivr.net/npm/leaflet-heatmap@1.0.0/leaflet-heatmap.min.js></script>
+<script src="/js/user/home.js"></script>
+<script src="/js/user/profile.js"></script>
+<script src="/js/user/upload.js"></script>
+<script src="/js/user/reports.js"></script>
+<script src="/js/user_dashboard.js"></script>
+<%- include('./partials/footer') %>
