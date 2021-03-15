@@ -8,7 +8,7 @@
 
 <br>
 
-<strong>-> User</strong>
+<strong>-> <ins>User</ins></strong>
   * Register an account and sign in.
   * Upload HAR files to the system.
   * Manage profile.
@@ -16,7 +16,7 @@
 
 <br>
 
-<strong>-> Admin</strong>
+<strong>-> <ins>Admin</ins></strong>
   * See basic information from the database (number of users, number of unique domains, etc...).
   * Visualize HTTP response timings.
   * Analyze HTTP headers information.
