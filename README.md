@@ -3,7 +3,9 @@
 ## Goal: Create a crowd sourcing site in order to collect data from HAR files.
 
 <br>
+
 ### Functionalities:
+
 <br>
 
 -> User
